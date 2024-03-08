@@ -1,15 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { StrictMode } from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import AnimeSearch from './AnimeSearch'; // Import your main component
 
-import App from "./components/App";
-import Credit from "./components/Credit";
+import './styles.css'; // You can also import a global CSS file if needed
 
-const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <StrictMode>
-    <App />
-    <Credit />
-  </StrictMode>,
-  rootElement
+  <React.StrictMode>
+    <AnimeSearch />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
