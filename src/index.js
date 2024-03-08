@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AnimeSearch from './AnimeSearch'; // Import your main component
+import AnimeSearch from './components/AnimeSearch'; // Import your main component
 
 import './styles.css'; // You can also import a global CSS file if needed
 
