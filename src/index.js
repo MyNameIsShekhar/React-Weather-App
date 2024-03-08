@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AnimeSearch from './components/anime.js'; // Import your main component
+import '@fortawesome/fontawesome-free/css/all.css';
 
 import './styles.css'; // You can also import a global CSS file if needed
 
